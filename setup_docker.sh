@@ -58,19 +58,27 @@ install_docker(){
         cat > "$config_file" <<EOF
 {
     "registry-mirrors": [
-        "hub.msqh.net",
-        "https://docker.1panel.live",
-        "https://yxzrazem.mirror.aliyuncs.com",
-        "http://hub-mirror.c.163.com",
-        "https://registry.docker-cn.com",
-        "https://docker.mirrors.sjtug.sjtu.edu.cn",
-        "https://docker.m.daocloud.io",
-        "https://docker.itelyou.cf",
-        "https://noohub.ru",
-        "https://docker.fxxk.dedyn.io",
-        "https://huecker.io",
-        "https://dockerhub.timeweb.cloud",
-        "https://registry.cn-hangzhou.aliyuncs.com"
+    "https://6kx4zyno.mirror.aliyuncs.com",
+    "https://hub.rat.dev",
+    "https://docker.actima.top",
+    "https://atomhub.openatom.cn",
+    "https://docker.m.daocloud.io",
+    "https://docker.nastool.de",
+    "https://dockerpull.org",
+    "https://registry.dockermirror.com",
+    "https://docker.m.daocloud.io",
+    "https://docker.1ms.run",
+    "https://docker.aityp.com",
+    "https://dockerhub.xisoul.cn",
+    "https://docker.imgdb.de",
+    "https://hub.littlediary.cn",
+    "https://docker.unsee.tech",
+    "https://hub.crdz.gq",
+    "https://hub.firefly.store",
+    "https://docker.kejilion.pro",
+    "https://dhub.kubesre.xyz",
+    "https://hub.xdark.top",
+    "https://docker.udayun.com"
     ]
 }
 EOF
